@@ -85,4 +85,3 @@ SELECT
 FROM ranked_data
 WHERE rank_total_country_cnt <= 10 OR rank_total_country_sent_cnt <= 10
 ORDER BY total_country_account_cnt DESC;
-
